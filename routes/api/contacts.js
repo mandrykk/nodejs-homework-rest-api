@@ -2,7 +2,7 @@ const express = require('express');
 
 const router = express.Router();
 
-const contactsOperations = require('../../models/contacts');
+const contactsOperations = require('../../service/contacts');
 
 const Joi = require('joi');
 const contactSchema = Joi.object({
